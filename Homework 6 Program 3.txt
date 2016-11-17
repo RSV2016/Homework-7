@@ -1,0 +1,22 @@
+public class Human {
+	String name;
+	 String surname;
+	 int age;
+	
+	
+	 public void printinfo(){
+		name="Semen";
+		System.out.println("Имя:"+name);
+		surname="Nazarenko";
+		System.out.println("Фамилия:"+surname);
+		age=20;
+		System.out.println("Количество лет:"+age);
+	}
+	
+	public static void main(String[] args) {
+		Human human=new Human();
+		human.printinfo();
+
+	}
+
+}
