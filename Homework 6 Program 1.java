@@ -7,7 +7,7 @@ public class lesson1  {
 	
 	
 	public static void main(String args[]){
-		System.out.println("Введите индекс");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ ГЁГ­Г¤ГҐГЄГ±");
 		i=scn.nextInt();
 		int array[]=new int[i];
 		inputArray(array);
@@ -16,7 +16,7 @@ public class lesson1  {
 	 
 		
 	public static void inputArray(int array[]){
-		System.out.println("Введите число");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г·ГЁГ±Г«Г®");
 		for(int i=0;i<array.length;i++){
 			array[i]=scn.nextInt();
 		}
@@ -25,7 +25,7 @@ public class lesson1  {
 	
 	public static void outputArray(int array[]){
 		for(int i=0;i<array.length;i++){
-			System.out.println("Результат="+array[i]);
+			System.out.println("ГђГҐГ§ГіГ«ГјГІГ ГІ="+array[i]);
 		}
 		
 	}
