@@ -6,11 +6,11 @@ public class Human {
 	
 	 public void printinfo(){
 		name="Semen";
-		System.out.println("Имя:"+name);
+		System.out.println("Г€Г¬Гї:"+name);
 		surname="Nazarenko";
-		System.out.println("Фамилия:"+surname);
+		System.out.println("Г”Г Г¬ГЁГ«ГЁГї:"+surname);
 		age=20;
-		System.out.println("Количество лет:"+age);
+		System.out.println("ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® Г«ГҐГІ:"+age);
 	}
 	
 	public static void main(String[] args) {
