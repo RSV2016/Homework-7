@@ -5,9 +5,9 @@ public class Rectangle {
 	
 	public double getArea(){
 		Scanner scn=new Scanner(System.in);
-		System.out.println("Введите ширину:");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ ГёГЁГ°ГЁГ­Гі:");
 		width=scn.nextDouble();
-		System.out.println("Введите длинну:");
+		System.out.println("Г‚ГўГҐГ¤ГЁГІГҐ Г¤Г«ГЁГ­Г­Гі:");
 		height=scn.nextDouble();
 		double res=width*height;
 		return res;
